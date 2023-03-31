@@ -1,0 +1,11 @@
+//O objetivo do código é encontrar o décimo termo de uma progressão aritmética com base na razão e no primeiro termo fornecidos pelo usuário
+
+import javax.swing.JOptionPane;
+
+public class Tentativa1 {
+    public static void main(String[] args) {
+        int  r = Integer.parseInt(JOptionPane.showInputDialog("Razão= "));
+        int termo = Integer.parseInt(JOptionPane.showInputDialog("1º termo= "));
+        JOptionPane.showMessageDialog(null, "O décimo termo é: " + (termo+(10-1)*r));
+    } 
+}
